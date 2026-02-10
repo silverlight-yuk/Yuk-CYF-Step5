@@ -1,0 +1,30 @@
+body {
+  font-family: Arial;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 80px auto;   
+  padding: 0 20px; 
+}
+
+h1, h2, h3 {
+  color: blue;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
+  height: 250px; 
+  object-fit: cover;  
+  display: block;
+  margin: 10px 0;
+  border-radius: 8px;  
+}
+
+/* Center the image of matcha pudding and daifuku*/
+
+img.centered {
+  width: 550px;   
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
